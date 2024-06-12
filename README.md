@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/jonathancaleb/enoflow/blob/main/public/logo.png?raw=true" alt="Enoflow logo" width="75">
+  <img src="https://github.com/jonathancaleb/enoflow/blob/main/public/logo.png?raw=true" alt="Enoflow logo" width="95">
   <h1>Enoflow <br> Rethinking Productivity</h1>
   <br>
 </div>
