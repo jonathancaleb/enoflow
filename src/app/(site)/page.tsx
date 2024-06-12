@@ -28,9 +28,8 @@ export default function Home() {
           {constants.tagline}
         </h1>
         <p className="max-w-[50ch] text-pretty text-center text-foreground-muted lg:text-lg [&>strong]:font-medium [&>strong]:text-foreground">
-          <strong>open-source</strong> student productivity platform made to{' '}
-          <strong>streamline</strong> the process students conduct their studies
-          and organize it.
+          <strong>enoflow</strong> helps you organize your thoughts{' '}
+          <strong>and</strong> plan your day in a beautiful and simle app.
         </p>
         <Button className="rounded-full" size="lg" asChild>
           <Link href="/early-access">

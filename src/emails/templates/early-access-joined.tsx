@@ -16,7 +16,7 @@ export default function EarlyAccessJoinedEmail({ name, email }: Props) {
       className="py-8"
     >
       <Img
-        src={`${emailBaseUrl()}/logo.svg`}
+        src={`${emailBaseUrl()}/logo.png`}
         width={50}
         height={50}
         alt="Enoflow logo"

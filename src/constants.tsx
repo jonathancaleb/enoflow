@@ -6,13 +6,13 @@ import {
 } from 'lucide-react';
 
 export const constants = {
-  name: 'Enoflow - Rethinking Student Productivity',
+  name: 'Enoflow - Rethinking Creativity & Productivity',
   shortName: 'Enoflow',
-  tagline: 'Rethinking Student Productivity',
+  tagline: 'Rethinking Creativity & Productivity',
   description:
-    'Enoflow is a productivity platform including many tools students need to be productive and stay on top of their work such as note taking, task management, and more.',
+    'Enoflow is a productivity platform including many tools people need to be productive and stay on top of their work such as note taking, task management, and more.',
   twitter_handle: '@Enoflow_run',
-  github_repo: 'https://github.com/Enoflow-run/Enoflow',
+  github_repo: 'https://github.com/jonathancaleb/enoflow',
   domain: 'Enoflow.run',
   discord: 'https://discord.gg/ewKmQd8kYm',
   twitter: 'https://x.com/Enoflow_run',

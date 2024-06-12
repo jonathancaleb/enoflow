@@ -55,7 +55,7 @@ export const Navbar = () => {
     <nav className={cn('z-50 w-full pb-0 pt-4 md:py-4')}>
       <div className="container flex items-center justify-between transition-all">
         <Link href="/" className="flex items-center gap-3">
-          <Image src="/logo.svg" width={35} height={35} alt="Enoflow Logo" />
+          <Image src="/logo.png" width={35} height={35} alt="Enoflow Logo" />
           <span>Enoflow</span>
         </Link>
 
@@ -81,9 +81,9 @@ export const Navbar = () => {
                     <NavigationMenuLink asChild>
                       <div className="flex size-full select-none flex-col justify-end rounded-md border border-gray-element-border bg-gray-element/50 px-6 py-3 pt-6 no-underline outline-none backdrop-blur-lg transition-colors hover:bg-gray-element/75 focus:shadow-md">
                         <Image
-                          src="/logo.svg"
-                          width={35}
-                          height={35}
+                          src="/logo.png"
+                          width={65}
+                          height={65}
                           alt="Enoflow Logo"
                         />
                         <div className="mb-2 mt-4 text-lg font-medium text-foreground">
