@@ -58,9 +58,7 @@
       "uniqueConstraints": {
         "early_access_email_unique": {
           "name": "early_access_email_unique",
-          "columns": [
-            "email"
-          ],
+          "columns": ["email"],
           "nullsNotDistinct": false
         }
       }
