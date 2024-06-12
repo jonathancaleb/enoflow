@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://github.com/noodle-run/noodle/blob/main/public/logo.svg?raw=true" alt="Noodle logo" width="75">
-  <h1>Enoflow <br> Rethinking Student Productivity</h1>
+  <h1>Enoflow <br> Rethinking Productivity</h1>
   <br>
 </div>
 
@@ -17,7 +17,7 @@
 
 ## Purpose
 
-Noodle as an idea came from the struggles that I faced during my university years. I was using multiple apps to try and stay on track with my studies, and I thought to myself, why is there no singular app that can do everything a student needs to stay on track with their studies? Like a GitHub but for students.
+A productivity app inspired by Notion. Scribe integrates note-taking, task management, databases, and more into one seamless experience. Built with Next.js, GoLang, Python, MongoDB, and Flutter
 
 ## Planned MVP Features
 
