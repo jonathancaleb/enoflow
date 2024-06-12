@@ -41,7 +41,7 @@ jobs:
 
       - name: Create Neon Branch
         id: create-branch
-        uses: neondatabase/create-branch-action@v4
+        uses: neondatabase/create-branch-action@v5
         with:
           project_id: ${{ env.NEON_PROJECT_ID }}
           branch_name: pr-${{ github.event.number }}-${{ steps.branch_name.outputs.current_branch }}
