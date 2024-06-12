@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://github.com/noodle-run/noodle/blob/main/public/logo.svg?raw=true" alt="Noodle logo" width="75">
-  <h1>Noodle <br> Rethinking Student Productivity</h1>
+  <h1>Enoflow <br> Rethinking Student Productivity</h1>
   <br>
 </div>
 
