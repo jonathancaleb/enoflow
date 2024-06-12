@@ -49,9 +49,9 @@ export const earlyAccessRouter = createRouter({
 
       await resend.emails
         .send({
-          from: 'Noodle <contact@noodle.run>',
+          from: 'Enoflow <contact@Enoflow.run>',
           to: email,
-          subject: "You are on Noodle's early access list!",
+          subject: "You are on Enoflow's early access list!",
           react: EarlyAccessJoinedEmail({ name, email }),
         })
         .catch((err: unknown) => {

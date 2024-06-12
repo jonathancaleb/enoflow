@@ -6,23 +6,24 @@ import {
 } from 'lucide-react';
 
 export const constants = {
-  name: 'Noodle - Rethinking Student Productivity',
-  shortName: 'Noodle',
+  name: 'Enoflow - Rethinking Student Productivity',
+  shortName: 'Enoflow',
   tagline: 'Rethinking Student Productivity',
   description:
-    'Noodle is a productivity platform including many tools students need to be productive and stay on top of their work such as note taking, task management, and more.',
-  twitter_handle: '@noodle_run',
-  github_repo: 'https://github.com/noodle-run/noodle',
-  domain: 'noodle.run',
+    'Enoflow is a productivity platform including many tools students need to be productive and stay on top of their work such as note taking, task management, and more.',
+  twitter_handle: '@Enoflow_run',
+  github_repo: 'https://github.com/Enoflow-run/Enoflow',
+  domain: 'Enoflow.run',
   discord: 'https://discord.gg/ewKmQd8kYm',
-  twitter: 'https://x.com/noodle_run',
+  twitter: 'https://x.com/Enoflow_run',
 };
 
 export const features = (iconSize: number) => [
   {
     icon: <Edit3Icon size={iconSize} />,
     title: 'Note Taking',
-    description: 'Write your study notes and let Noodle take care of the rest.',
+    description:
+      'Write your study notes and let Enoflow take care of the rest.',
   },
   {
     icon: <DiamondIcon size={iconSize} />,

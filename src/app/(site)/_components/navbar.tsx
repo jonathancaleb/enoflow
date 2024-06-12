@@ -55,8 +55,8 @@ export const Navbar = () => {
     <nav className={cn('z-50 w-full pb-0 pt-4 md:py-4')}>
       <div className="container flex items-center justify-between transition-all">
         <Link href="/" className="flex items-center gap-3">
-          <Image src="/logo.svg" width={35} height={35} alt="Noodle Logo" />
-          <span>Noodle</span>
+          <Image src="/logo.svg" width={35} height={35} alt="Enoflow Logo" />
+          <span>Enoflow</span>
         </Link>
 
         <NavigationMenu className="hidden md:block">
@@ -84,7 +84,7 @@ export const Navbar = () => {
                           src="/logo.svg"
                           width={35}
                           height={35}
-                          alt="Noodle Logo"
+                          alt="Enoflow Logo"
                         />
                         <div className="mb-2 mt-4 text-lg font-medium text-foreground">
                           {constants.shortName}

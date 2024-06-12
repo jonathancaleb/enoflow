@@ -1,10 +1,10 @@
 {
-  "name": "noodle",
+  "name": "Enoflow",
   "version": "0.1.0",
   "private": true,
   "description": "Rethinking Student Productivity",
   "license": "AGPL-3.0-or-later",
-  "author": "NOODLE RUN LTD.",
+  "author": "Enoflow RUN LTD.",
   "type": "module",
   "scripts": {
     "build": "next build",

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/noodle-run/noodle/blob/main/public/logo.svg?raw=true" alt="Noodle logo" width="75">
+  <img src="https://github.com/Enoflow-run/Enoflow/blob/main/public/logo.svg?raw=true" alt="Enoflow logo" width="75">
   <h1>Enoflow <br> Rethinking Productivity</h1>
   <br>
 </div>
@@ -7,11 +7,11 @@
 > **Warning**
 > This is a work-in-progress and not the finished product.
 >
-> Noodle is still in active development towards a minimal viable product (MVP).
+> Enoflow is still in active development towards a minimal viable product (MVP).
 >
-> Follow me on twitter [@ixahmedxii](https://twitter.com/ixahmedxii) for updates.
+> Follow me on twitter [@jonathancalebi](https://twitter.com/jonathancalebi) for updates.
 
-![Noodle Preview](https://github.com/noodle-run/noodle/blob/main/public/_static/dark-dashboard-preview.jpg?raw=true)
+![Enoflow Preview](https://github.com/Enoflow-run/Enoflow/blob/main/public/_static/dark-dashboard-preview.jpg?raw=true)
 
 <p align="center" style="color:dodgerblue;"><strong>⚠️ This is a UI design mockup of what the platform will look like, it is not the current state of the project.</strong></p>
 
@@ -36,13 +36,13 @@ Feel free to suggest more features by opening an issue, or join our [Discord ser
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=noodle-run/noodle#gh-light-mode-only)](https://star-history.com/#noodle-run/noodle#gh-light-mode-only)
-[![Star History Chart](https://api.star-history.com/svg?repos=noodle-run/noodle&theme=dark#gh-dark-mode-only)](https://star-history.com/#noodle-run/noodle#gh-dark-mode-only)
+[![Star History Chart](https://api.star-history.com/svg?repos=Enoflow-run/Enoflow#gh-light-mode-only)](https://star-history.com/#Enoflow-run/Enoflow#gh-light-mode-only)
+[![Star History Chart](https://api.star-history.com/svg?repos=Enoflow-run/Enoflow&theme=dark#gh-dark-mode-only)](https://star-history.com/#Enoflow-run/Enoflow#gh-dark-mode-only)
 
 ## Contributing
 
-If you would like to contribute to Noodle, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) file to get started.
+If you would like to contribute to Enoflow, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) file to get started.
 
 ## License
 
-Noodle is open source and available under the [AGPL-3.0-or-later](./LICENSE) license.
+Enoflow is open source and available under the [AGPL-3.0-or-later](./LICENSE) license.

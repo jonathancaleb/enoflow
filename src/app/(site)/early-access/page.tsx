@@ -3,7 +3,7 @@ import { JoinEarlyAccessForm } from './_forms/join';
 import { constructMetadata } from '@/lib/utils';
 
 export const metadata: Metadata = constructMetadata({
-  title: 'Early Access - Noodle',
+  title: 'Early Access - Enoflow',
   description: 'Join us on our journey to improve student productivity.',
 });
 

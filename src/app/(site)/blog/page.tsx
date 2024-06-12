@@ -38,7 +38,7 @@ export default async function BlogPage() {
         More posts
       </h2>
       <p className="mt-6 text-balance text-left text-foreground-muted md:mt-12 md:text-center lg:mt-16">
-        🤪 Waiting on the Noodle team (Ahmed) to write more...
+        🤪 Waiting on the Enoflow team (Ahmed) to write more...
       </p>
     </main>
   );

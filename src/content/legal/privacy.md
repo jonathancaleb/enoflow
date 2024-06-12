@@ -5,7 +5,7 @@ effectiveDate: Jun 8th, 2024
 
 ## 1. Introduction
 
-Noodle Run LTD ("Noodle") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share information about you when you use our website at [https://noodle.run](https://noodle.run)
+Enoflow Run LTD ("Enoflow") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share information about you when you use our website at [https://Enoflow.run](https://Enoflow.run)
 
 ## 2. Information We Collect
 
@@ -18,7 +18,7 @@ We use the information we collect to:
 
 - Provide, maintain, and improve our services.
 - Communicate with you about updates, offers, and promotions.
-- Protect the rights and property of Noodle and our users.
+- Protect the rights and property of Enoflow and our users.
 
 ## 4. Sharing of Information
 
@@ -30,7 +30,7 @@ We implement reasonable security measures to protect your information from unaut
 
 ## 6. Your Rights
 
-You have the right to access, update, or delete your personal information. To exercise these rights, please contact us at [privacy@noodle.run](mailto:privacy@noodle.run).
+You have the right to access, update, or delete your personal information. To exercise these rights, please contact us at [privacy@Enoflow.run](mailto:privacy@Enoflow.run).
 
 ## 7. Changes to this Policy
 
@@ -38,4 +38,4 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 ## 8. Contact Us
 
-If you have any questions about this Privacy Policy, please contact us at [privacy@noodle.run](mailto:privacy@noodle.run).
+If you have any questions about this Privacy Policy, please contact us at [privacy@Enoflow.run](mailto:privacy@Enoflow.run).
