@@ -8,7 +8,7 @@ In this guide, you will get an overview of the project structure and setup, as w
 
 ## Table of contents
 
-- [Enoflow's contributing guidelines](#Enoflows-contributing-guidelines)
+- [Enoflow's contributing guidelines](#enoflows-contributing-guidelines)
   - [Table of contents](#table-of-contents)
   - [New contributor guide](#new-contributor-guide)
   - [Getting your foot in](#getting-your-foot-in)
@@ -33,17 +33,17 @@ Here are some resources to help you get started with open source contributions:
 
 ## Getting your foot in
 
-Our preferred way of providing the opportunity for people to contribute to Enoflow is through a process that starts with creating a new issue, the summary of the workflow that you can expect and should adhere to is the following:
+Our preferred way of providing the opportunity for people to contribute to Noodle is through a process that starts with creating a new issue, the summary of the workflow that you can expect and should adhere to is the following:
 
 - You see an area of improvement in the code base, this could be a fix, feature, refactoring...etc
-- Create an [issue](https://github.com/Enoflow-run/Enoflow/issues) on our Github repository.
+- Create an [issue](https://github.com/noodle-run/noodle/issues) on our Github repository.
 - Wait until a team member discusses the issue with you, and if both parties are in agreement, you can start working on the issue.
 - Once work has started, you can create a draft pull request and remember to link your pull request with the issue.
 - Once the work is complete, change the status of the pull request to ready for review.
-- We will review the pull request and if all is good, congratulations! 🥳 you are now a Enoflow contributor!
+- We will review the pull request and if all is good, congratulations! 🥳 you are now a Noodle contributor!
 - If not, we will explain the changes that need to be made for the pull request to be merged or why it can't be merged.
 
-If you would like to be more involved in the development of Enoflow, we would like to invite you to our [Discord Server](https://discord.gg/SERySfj8Eg) where we can have a chat together and get you involved in the project!
+If you would like to be more involved in the development of Noodle, we would like to invite you to our [Discord Server](https://discord.gg/SERySfj8Eg) where we can have a chat together and get you involved in the project!
 
 ### Some simple rules
 
@@ -81,15 +81,15 @@ There are a lot of other technologies being used in this project, however these 
 
 ### Cloning the repo
 
-To clone the repo, you firstly need to [fork](https://github.com/Enoflow-run/Enoflow/fork) it, and then clone your copy of Enoflow locally.
+To clone the repo, you firstly need to [fork](https://github.com/noodle-run/noodle/fork) it, and then clone your copy of noodle locally.
 
 ```bash
-git clone https://github.com/<your-gh-username>/Enoflow.git
+git clone https://github.com/<your-gh-username>/noodle.git
 ```
 
 ### Bun
 
-Bun is used as the package manager of Enoflow, with Bun, you don't need to have NodeJS installed at all on your system to be able to run Enoflow. The only tool you need to install dependencies & run Enoflow is Bun!
+Bun is used as the package manager of Noodle, with Bun, you don't need to have NodeJS installed at all on your system to be able to run Noodle. The only tool you need to install dependencies & run Noodle is Bun!
 
 To install bun, head over to [their website](https://bun.sh/) which will tell you how to get it installed on your system.
 
@@ -103,7 +103,7 @@ If this commands outputs a version number, you're all good to go.
 
 ### Installing dependencies
 
-With bun installed on your machine, the next step would be to install the dependencies that Enoflow relies upon to work, to do this, run the following command:
+With bun installed on your machine, the next step would be to install the dependencies that Noodle relies upon to work, to do this, run the following command:
 
 ```bash
 bun install
@@ -142,4 +142,4 @@ bun format
 
 ## Closing notes
 
-Again, thank you so much for your interest in contributing to Enoflow, we really appreciate it, and if there is anything we can do to help your journey, make sure to join our [Discord Server](https://discord.gg/SERySfj8Eg).
+Again, thank you so much for your interest in contributing to Noodle, we really appreciate it, and if there is anything we can do to help your journey, make sure to join our [Discord Server](https://discord.gg/SERySfj8Eg).
