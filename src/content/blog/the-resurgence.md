@@ -1,6 +1,6 @@
 ---
 title: Enoflow is back to life!
-publishedAt: Jun 8th, 2024
+publishedAt: Jun 10th, 2024
 summary: After a brief period of absence, Enoflow is back again in the works. Learn more about what we have been up to, the story until now and what's next in the future of Enoflow!
 image: /_static/blog/Enoflow-resurrection.jpg
 ---
