@@ -5,7 +5,7 @@ effectiveDate: Jun 8th, 2024
 
 ## 1. Introduction
 
-Enoflow Run LTD ("Enoflow") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share information about you when you use our website at [https://Enoflow.run](https://Enoflow.run)
+Enoflow inc ("Enoflow") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share information about you when you use our website at [https://enoflow.vercel.app](https://enoflow.vercel.app)
 
 ## 2. Information We Collect
 
@@ -30,7 +30,7 @@ We implement reasonable security measures to protect your information from unaut
 
 ## 6. Your Rights
 
-You have the right to access, update, or delete your personal information. To exercise these rights, please contact us at [privacy@Enoflow.run](mailto:privacy@Enoflow.run).
+You have the right to access, update, or delete your personal information. To exercise these rights, please contact us at [privacy@Enoflow](mailto:jonathancaleb230@gmail.com).
 
 ## 7. Changes to this Policy
 
@@ -38,4 +38,4 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 ## 8. Contact Us
 
-If you have any questions about this Privacy Policy, please contact us at [privacy@Enoflow.run](mailto:privacy@Enoflow.run).
+If you have any questions about this Privacy Policy, please contact us at [privacy@Enoflow.run](mailto:jonathancaleb230@gmail.com).

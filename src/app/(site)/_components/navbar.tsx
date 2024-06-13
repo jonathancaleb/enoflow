@@ -90,8 +90,7 @@ export const Navbar = () => {
                           {constants.shortName}
                         </div>
                         <p className="text-sm leading-snug text-foreground-muted">
-                          Helping students stay productive and on top of their
-                          work.
+                          Helping you stay productive and on top of creativity.
                         </p>
 
                         <a

@@ -5,7 +5,7 @@ effectiveDate: Jun 8th, 2024
 
 ## 1. Introduction
 
-Welcome to Enoflow Run LTD ("Enoflow"). By accessing our website at [https://Enoflow.run](https://Enoflow.run) and using our services, you agree to be bound by these Terms of Service ("Terms").
+Welcome to Enoflow ("Enoflow"). By accessing our website at [https://enoflow.vercel.app](https://enoflow.vercel.app) and using our services, you agree to be bound by these Terms of Service ("Terms").
 
 ## 2. Use of Services
 
@@ -33,4 +33,4 @@ We reserve the right to modify these Terms at any time. We will notify you of an
 
 ## 8. Contact Us
 
-If you have any questions about these Terms, please contact us at [contact@Enoflow.run](mailto:contact@Enoflow.run).
+If you have any questions about these Terms, please contact us at [contact@Enoflow](mailto:jonathancaleb230@gmail.com).

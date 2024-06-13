@@ -25,7 +25,7 @@ export default function EarlyAccessJoinedEmail({ name, email }: Props) {
         You are on the list!
       </Heading>
       <Text className="my-0 pt-4">
-        Hey {name}, Ahmed here, founder and creator of Enoflow.
+        Hey {name}, Caleb here, founder and creator of Enoflow.
       </Text>
       <Text>
         I wanted to thank you for joining Enoflow&apos;s early access list. I am

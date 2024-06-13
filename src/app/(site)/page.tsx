@@ -20,7 +20,7 @@ export default function Home() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            Star us on GitHub{' '}
+            View on GitHub{' '}
             <StarIcon className="fill-amber-500 stroke-amber-500" size={16} />
           </a>
         </Button>

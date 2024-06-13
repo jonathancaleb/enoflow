@@ -4,14 +4,14 @@ import { constructMetadata } from '@/lib/utils';
 
 export const metadata: Metadata = constructMetadata({
   title: 'Early Access - Enoflow',
-  description: 'Join us on our journey to improve student productivity.',
+  description: 'Join us on our journey to improve productivity.',
 });
 
 export default function EarlyAccessPage() {
   return (
     <main className="flex flex-col items-center justify-center gap-6 py-12 md:py-16 lg:py-24">
       <h1 className="hidden max-w-[20ch] text-balance bg-gradient-to-b from-foreground to-gray-foreground-muted bg-clip-text text-center text-5xl font-extrabold leading-none text-transparent sm:block md:text-6xl lg:text-7xl">
-        Join us on our journey to improve student productivity
+        Join us on our journey to improve productivity
       </h1>
       <h1 className="block max-w-[20ch] text-balance bg-gradient-to-b from-foreground to-gray-foreground-muted bg-clip-text text-center text-5xl font-extrabold leading-none text-transparent sm:hidden md:text-6xl lg:text-7xl">
         Join us on our journey
