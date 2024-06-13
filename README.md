@@ -6,7 +6,6 @@
 
 > **Warning**
 > This is a work-in-progress and not the finished product.
->
 
 ## Purpose
 
@@ -24,8 +23,6 @@ The flashcards will be generated from the notes that you take, and you will be a
 - 📅 Calendar
 - 📝 Task management
 - 📊 Grade tracking
-
-
 
 ## Contributing
 
