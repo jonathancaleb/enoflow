@@ -20,7 +20,6 @@ In this guide, you will get an overview of the project structure and setup, as w
     - [Installing dependencies](#installing-dependencies)
     - [Environment Variables](#environment-variables)
     - [Running stuff](#running-stuff)
-  - [Closing notes](#closing-notes)
 
 ## New contributor guide
 
