@@ -7,7 +7,7 @@ import { SignOutButton } from '@clerk/nextjs';
 export default function DashboardHome() {
   return (
     <main>
-      <h1>Hello World</h1>
+      <h1>Hello world, this is the dashboard.</h1>
       <SignOutButton />
     </main>
   );
