@@ -13,9 +13,9 @@ export const constants = {
     'Enoflow is a productivity platform including many tools people need to be productive and stay on top of their work such as note taking, task management, and more.',
   twitter_handle: '@Enoflow_run',
   github_repo: 'https://github.com/jonathancaleb/enoflow',
-  domain: 'Enoflow.run',
-  discord: 'https://discord.gg/ewKmQd8kYm',
-  twitter: 'https://x.com/Enoflow_run',
+  domain: 'https://enoflow.vercel.app',
+  discord: 'https://discord',
+  twitter: 'https://x.com',
 };
 
 export const features = (iconSize: number) => [
