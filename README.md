@@ -9,7 +9,7 @@
 
 ## Purpose
 
-A productivity app inspired by Notion. Scribe integrates note-taking, task management, databases, and more into one seamless experience. Built with Next.js, GoLang, Python, MongoDB, and Flutter
+A productivity app inspired by Notion. Scribe integrates note-taking, task management, databases, and more into one seamless experience. Built with Next.js, GoLang, Python, Postgres, Clerk and Flutter
 
 ## Planned MVP Features
 
@@ -22,7 +22,6 @@ The flashcards will be generated from the notes that you take, and you will be a
 
 - 📅 Calendar
 - 📝 Task management
-- 📊 Grade tracking
 
 ## Contributing
 
