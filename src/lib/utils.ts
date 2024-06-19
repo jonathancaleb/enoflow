@@ -55,22 +55,22 @@ export function constructMetadata({
   description = constants.description,
   image = `${getBaseUrl()}/thumbnail.jpg`,
   icons = [
-    {
-      rel: 'apple-touch-icon',
-      sizes: '32x32',
-      url: '/apple-touch-icon.png',
-    },
+    // {
+    //   rel: 'apple-touch-icon',
+    //   sizes: '32x32',
+    //   url: '/apple-touch-icon.png',
+    // },
     {
       rel: 'icon',
       type: 'image/png',
       sizes: '32x32',
-      url: '/favicon-32x32.png',
+      url: '/fav.png',
     },
     {
       rel: 'icon',
       type: 'image/png',
       sizes: '16x16',
-      url: '/favicon-16x16.png',
+      url: '/fav.png',
     },
   ],
   noIndex = false,

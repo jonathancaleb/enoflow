@@ -18,13 +18,13 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: '#F86C6A',
     icons: [
       {
-        src: '/android-chrome-192x192.png',
+        src: '/fav.png',
         sizes: '192x192',
         type: 'image/png',
         purpose: 'maskable',
       },
       {
-        src: '/android-chrome-512x512.png',
+        src: '/fav.png',
         sizes: '512x512',
         type: 'image/png',
         purpose: 'maskable',
