@@ -54,7 +54,7 @@ export const Footer = () => {
             <span>Enoflow</span>
           </Link>
           <p className="text-sm text-foreground-muted">
-            &copy; {new Date().getFullYear()} Enoflow inc. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Enoflow. All Rights Reserved.
           </p>
         </div>
         <div className="order-1 mb-10 grid grid-cols-3 gap-0 md:order-2 md:mb-0 md:gap-12">

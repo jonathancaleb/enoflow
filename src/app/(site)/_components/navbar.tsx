@@ -56,7 +56,7 @@ export const Navbar = () => {
       <div className="container flex items-center justify-between transition-all">
         <Link href="/" className="flex items-center gap-3">
           <Image src="/logo.png" width={35} height={35} alt="Enoflow Logo" />
-          <span>Enoflow</span>
+          <span>enoflow</span>
         </Link>
 
         <NavigationMenu className="hidden md:block">

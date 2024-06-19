@@ -1,9 +1,3 @@
-<div align="center">
-  <img src="https://github.com/jonathancaleb/enoflow/blob/main/public/logo.png?raw=true" alt="Enoflow logo" width="95">
-  <h1>Enoflow <br> Rethinking Productivity</h1>
-  <br>
-</div>
-
 > **Warning**
 > This is a work-in-progress and not the finished product.
 
@@ -11,7 +5,7 @@
 
 A productivity app inspired by Notion. Scribe integrates note-taking, task management, databases, and more into one seamless experience. Built with Next.js, GoLang, Python, Postgres, Clerk and Flutter
 
-## Planned MVP Features
+## Features
 
 - ✍️ Note Taking
 - 📚 Flashcards
