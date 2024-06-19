@@ -10,9 +10,6 @@ In this guide, you will get an overview of the project structure and setup, as w
 
 - [Enoflow's contributing guidelines](#enoflows-contributing-guidelines)
   - [Table of contents](#table-of-contents)
-  - [New contributor guide](#new-contributor-guide)
-  - [Getting your foot in](#getting-your-foot-in)
-    - [Some simple rules](#some-simple-rules)
   - [The tech stack](#the-tech-stack)
   - [Getting stuff running](#getting-stuff-running)
     - [Cloning the repo](#cloning-the-repo)
@@ -20,34 +17,6 @@ In this guide, you will get an overview of the project structure and setup, as w
     - [Installing dependencies](#installing-dependencies)
     - [Environment Variables](#environment-variables)
     - [Running stuff](#running-stuff)
-
-## New contributor guide
-
-Here are some resources to help you get started with open source contributions:
-
-- [Finding ways to contribute to open source on GitHub](https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github)
-- [Set up Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
-- [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
-- [Collaborating with pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests)
-
-## Getting your foot in
-
-Our preferred way of providing the opportunity for people to contribute to Noodle is through a process that starts with creating a new issue, the summary of the workflow that you can expect and should adhere to is the following:
-
-- You see an area of improvement in the code base, this could be a fix, feature, refactoring...etc
-- Create an [issue](https://github.com/jonathancaleb/enoflow/issues) on our Github repository.
-- Wait until a team member discusses the issue with you, and if both parties are in agreement, you can start working on the issue.
-- Once work has started, you can create a draft pull request and remember to link your pull request with the issue.
-- Once the work is complete, change the status of the pull request to ready for review.
-- We will review the pull request and if all is good, congratulations! 🥳 you are now a Noodle contributor!
-- If not, we will explain the changes that need to be made for the pull request to be merged or why it can't be merged.
-
-### Some simple rules
-
-- Don't work on an issue that is already being worked on by someone else.
-- Don't work on something without getting a team member's approval, this is to not waste your time by making you work on something that won't be merged.
-- Don't demand for your pull request to be approved and merged.
-- Be nice to everyone involved, we are aiming to create a positive community around collaborating and contributing towards Enoflow's development.
 
 ## The tech stack
 
