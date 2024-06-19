@@ -1,5 +1,5 @@
 > **Warning**
-> This is a work-in-progress and not the finished product.
+> This is a work-in-progress and are learning product.
 
 ## Purpose
 
