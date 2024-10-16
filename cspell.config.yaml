@@ -13,31 +13,55 @@ ignorePaths:
   - tsconfig.tsbuildinfo
   - branch_out
 words:
+  - activecampaign
+  - aeiou
   - Arcjet
+  - asana
+  - autopilotmail
+  - autoresponder
+  - bcdfghj
+  - bigcommerce
   - callees
   - classname
   - clsx
   - commitlint
   - compat
+  - constantcontact
+  - customerservice
   - Enoflow
-  - Enoflow's
+  - esbenp
+  - facebookmail
+  - freshdesk
   - frontmatter
+  - healthcheck
+  - helpdesk
+  - helpscout
   - hookform
+  - hubspot
   - ianvs
+  - ixahmedxi
+  - ixahmedxii
   - jiti
-  - jonathancaleb
-  - jonathancalebi
   - lockb
   - lucide
+  - mailchimp
+  - mailgun
+  - marketo
   - mitigations
   - neondatabase
   - nextjs
-  - ofcourse
+  - noreplys
   - packagejson
   - paralleldrive
+  - pinterest
+  - pipedrive
   - Posthog
+  - postmarkapp
   - ratelimit
+  - redditmail
   - Registrator
+  - sendgrid
+  - sendinblue
   - serviceworker
   - Shadcn
   - Signin
@@ -47,6 +71,8 @@ words:
   - superjson
   - tailwindcss
   - tanstack
+  - tawk
+  - timeago
   - Todos
   - trpc
   - tsbuildinfo
@@ -54,6 +80,4 @@ words:
   - typecheck
   - Uploadthing
   - Upstash
-  - healthcheck
-  - timeago
   - usehooks
