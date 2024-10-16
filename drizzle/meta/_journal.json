@@ -8,6 +8,13 @@
       "when": 1716742272276,
       "tag": "0000_funny_johnny_blaze",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1729061329280,
+      "tag": "0001_closed_sentry",
+      "breakpoints": true
     }
   ]
 }

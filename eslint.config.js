@@ -93,6 +93,8 @@ export default tseslint.config(
 
       '@typescript-eslint/dot-notation': 'off',
 
+      '@typescript-eslint/non-nullable-type-assertion-style': 'off',
+
       '@typescript-eslint/no-unnecessary-condition': [
         'error',
         {
