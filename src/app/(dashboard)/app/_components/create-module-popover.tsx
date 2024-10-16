@@ -88,7 +88,7 @@ export function IconPicker({ iconOnClickHandler }: IconPickerProps) {
 }
 
 const formSchema = z.object({
-  name: z.string().min(2),
+  moduleName: z.string().min(2),
   description: z.string().optional(),
   code: z.string().min(2),
   credits: z.string(),
@@ -114,7 +114,7 @@ export function CreateModulePopover() {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-      name: '',
+      moduleName: '',
       code: '',
       credits: '0',
       icon: 'default',
@@ -126,9 +126,10 @@ export function CreateModulePopover() {
     await mutation.mutateAsync({
       ...values,
       credits: parseInt(values.credits),
+      name: values.moduleName,
     });
     form.reset({
-      name: '',
+      moduleName: '',
       code: '',
       credits: '0',
       icon: 'default',
@@ -150,7 +151,7 @@ export function CreateModulePopover() {
         </Button>
       </PopoverTrigger>
 
-      <PopoverContent side="right" className="w-[328px]">
+      <PopoverContent align="start" side="right" className="w-[328px]">
         <ResizablePanel>
           <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="p-4">
@@ -163,11 +164,11 @@ export function CreateModulePopover() {
                   <div className="space-y-2">
                     <FormField
                       control={form.control}
-                      name="name"
+                      name="moduleName"
                       render={({ field }) => (
                         <FormItem>
                           <FormLabel className="text-xs text-foreground">
-                            Name
+                            module Name
                           </FormLabel>
                           <FormControl>
                             <Input
