@@ -16,6 +16,8 @@ export const constants = {
   domain: 'https://enoflow.vercel.app',
   discord: 'https://discord',
   twitter: 'https://x.com',
+  feedback: 'mailto:jonathancaleb230@gmail.com',
+  support: 'mailto:jonathancaleb230@gmail.com',
 };
 
 export const features = (iconSize: number) => [
