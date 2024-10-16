@@ -1,16 +1,25 @@
 'use client';
 
-import { auth, currentUser } from '@clerk/nextjs/server';
+import { Skeleton } from '@/primitives/skeleton';
+import { useUser } from '@clerk/nextjs';
 
-export async function WelcomeMessage() {
-  const { redirectToSignIn } = auth();
-  const user = await currentUser();
+export function WelcomeMessage() {
+  const { isLoaded, user } = useUser();
 
-  if (!user) {
-    return redirectToSignIn();
+  if (!isLoaded || !user) {
+    return (
+      <div className="space-y-3">
+        <Skeleton className="h-10 w-2/5" />
+        <div className="flex flex-col gap-2">
+          <Skeleton className="h-5 w-1/2" />
+          <Skeleton className="h-5 w-1/2" />
+        </div>
+      </div>
+    );
   }
 
   const currentHour = new Date().getHours();
+
   let timeGreeting;
   if (currentHour < 12) {
     timeGreeting = 'Good morning';
@@ -19,6 +28,7 @@ export async function WelcomeMessage() {
   } else {
     timeGreeting = 'Good evening';
   }
+
   const greeting = user.firstName
     ? `${timeGreeting}, ${user.firstName}!`
     : `${timeGreeting}!`;
