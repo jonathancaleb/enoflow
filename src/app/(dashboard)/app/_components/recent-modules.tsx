@@ -5,7 +5,7 @@ import { ModuleCard } from './module-card';
 import { Button } from '@/primitives/button';
 import AnimateHeight from 'react-animate-height';
 import { useState } from 'react';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils/cn';
 import type { IconNames } from '@/primitives/icon';
 import type { RouterOutputs } from '@/lib/trpc/types';
 
