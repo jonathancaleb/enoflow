@@ -4,8 +4,6 @@ import { ChevronRightIcon, StarIcon } from 'lucide-react';
 import { constants } from '@/constants';
 import { Button } from '@/primitives/button';
 
-import Image from 'next/image';
-
 /**
  * The marketing home page.
  * @returns A react component representing the marketing home page.
@@ -37,13 +35,13 @@ export default function Home() {
           </Link>
         </Button>
       </div>
-      <Image
+      {/* <Image
         src="/_static/dark-dashboard-preview.jpg"
         width={1920}
         height={1080}
         alt="Dashboard Preview"
         className="mt-12 rounded-lg shadow-[0_50px_200px_75px] shadow-pink/10 md:mt-16 lg:mt-24"
-      />
+      /> */}
     </main>
   );
 }
