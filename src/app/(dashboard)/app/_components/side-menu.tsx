@@ -41,7 +41,7 @@ export async function SideMenu() {
     <aside className="flex w-[200px] flex-col justify-between gap-8">
       <div>
         <div className="flex items-center gap-3 pl-3 pt-4">
-          <Image src="/logo.png" width={35} height={35} alt="Enoflow Logo" />
+          <Image src="/eno.svg" width={35} height={35} alt="Enoflow Logo" />
           <span>enoflow</span>
         </div>
 
