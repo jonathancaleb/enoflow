@@ -13,7 +13,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          'bg-gradient-to-br from-salmon to-pink text-white hover:opacity-90 dark:text-black',
+          'bg-gradient-to-br from-teal-400 to-teal-400 text-white hover:opacity-90 dark:text-black',
         destructive: 'bg-red text-white hover:bg-red-solid-hover',
         outline:
           'border border-gray-subtle-border bg-gray-element text-foreground-muted hover:bg-gray-element-hover hover:text-foreground',

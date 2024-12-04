@@ -22,7 +22,7 @@ export default function Home() {
             <StarIcon className="fill-amber-500 stroke-amber-500" size={16} />
           </a>
         </Button>
-        <h1 className="max-w-[20ch] text-balance bg-gradient-to-b from-foreground to-gray-foreground-muted bg-clip-text text-center text-5xl font-extrabold leading-none text-transparent md:text-6xl lg:text-8xl">
+        <h1 className="max-w-[20ch] text-balance bg-gradient-to-b from-teal-950 to-gray-foreground-muted bg-clip-text text-center text-5xl font-extrabold leading-none text-transparent md:text-6xl lg:text-8xl">
           {constants.tagline}
         </h1>
         <p className="max-w-[50ch] text-pretty text-center text-foreground-muted lg:text-lg [&>strong]:font-medium [&>strong]:text-foreground">
