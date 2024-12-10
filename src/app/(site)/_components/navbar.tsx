@@ -1,7 +1,6 @@
 'use client';
 
 import { forwardRef, useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 import { ChevronRightIcon, MenuIcon } from 'lucide-react';
@@ -29,17 +28,15 @@ const ListItem = forwardRef<
         <div
           ref={ref}
           className={cn(
-            'z-50 flex select-none items-start gap-3 rounded-md border border-transparent px-4 py-3 leading-none no-underline outline-none transition-colors hover:border-gray-element-border hover:bg-gray-element hover:text-gray-foreground focus:border-gray-element-border focus:bg-gray-element focus:text-gray-foreground',
+            'flex select-none items-start gap-2 rounded-md border border-transparent px-4 py-2 leading-none no-underline outline-none transition-colors hover:border-gray-300 hover:bg-gray-200 focus:border-gray-300 focus:bg-gray-200',
             className,
           )}
           {...props}
         >
-          <div className="size-[18px]">{icon}</div>
-          <div className="space-y-2">
-            <div className="text-sm font-medium leading-none text-foreground">
-              {title}
-            </div>
-            <p className="line-clamp-2 text-xs leading-normal">{children}</p>
+          <div className="size-[20px]">{icon}</div>
+          <div className="space-y-1">
+            <div className="text-base font-medium leading-none">{title}</div>
+            <p className="line-clamp-2 text-sm">{children}</p>
           </div>
         </div>
       </NavigationMenuLink>
@@ -52,64 +49,37 @@ export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className={cn('z-50 w-full pb-0 pt-4 md:py-4')}>
-      <div className="container flex items-center justify-between transition-all">
-        <Link href="/" className="flex items-center gap-3">
-          <Image src="/eno.svg" width={35} height={35} alt="Enoflow Logo" />
-          <span>enoflow</span>
+    <nav className={cn('w-full py-6')}>
+      <div className="container mx-auto flex max-w-5xl items-center justify-between px-4 lg:px-6">
+        <Link href="/" className="flex items-center gap-2">
+          <span className="text-2xl font-medium text-black">enoflow</span>
         </Link>
 
         <NavigationMenu className="hidden md:block">
-          <NavigationMenuList>
+          <NavigationMenuList className="flex gap-3">
             <NavigationMenuItem>
-              <NavigationMenuTrigger>Features</NavigationMenuTrigger>
+              <NavigationMenuTrigger className="text-base">
+                Features
+              </NavigationMenuTrigger>
               <NavigationMenuContent>
-                <div className="absolute right-36 top-1/2 z-30 size-20 -translate-y-1/2 rounded-full bg-pink opacity-50 blur-3xl" />
-                <ul className="grid gap-3 p-3 md:w-[450px] lg:w-[550px] lg:grid-cols-[1fr_0.85fr]">
-                  <div className="flex flex-col gap-3">
-                    {features(18).map((feature) => (
-                      <ListItem
-                        key={feature.title}
-                        title={feature.title}
-                        icon={feature.icon}
-                      >
-                        {feature.description}
-                      </ListItem>
-                    ))}
-                  </div>
-                  <li>
-                    <NavigationMenuLink asChild>
-                      <div className="flex size-full select-none flex-col justify-end rounded-md border border-gray-element-border bg-gray-element/50 px-6 py-3 pt-6 no-underline outline-none backdrop-blur-lg transition-colors hover:bg-gray-element/75 focus:shadow-md">
-                        <Image
-                          src="/eno.svg"
-                          width={65}
-                          height={65}
-                          alt="Enoflow Logo"
-                        />
-                        <div className="mb-2 mt-4 text-lg font-medium text-foreground">
-                          {constants.shortName}
-                        </div>
-                        <p className="text-sm leading-snug text-foreground-muted">
-                          Helping you stay productive and on top of creativity.
-                        </p>
-
-                        <a
-                          href={constants.github_repo}
-                          target="_blank"
-                          rel="noreferrer noopener"
-                          className="mt-6 flex items-center gap-2 py-2 text-sm transition-colors hover:text-gray-foreground"
-                        >
-                          Contribute <ChevronRightIcon size={13} />
-                        </a>
-                      </div>
-                    </NavigationMenuLink>
-                  </li>
+                <ul className="grid gap-2 p-2 md:w-[400px] lg:w-[500px]">
+                  {features(18).map((feature) => (
+                    <ListItem
+                      key={feature.title}
+                      title={feature.title}
+                      icon={feature.icon}
+                    >
+                      {feature.description}
+                    </ListItem>
+                  ))}
                 </ul>
               </NavigationMenuContent>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="/blog" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                <NavigationMenuLink
+                  className={cn(navigationMenuTriggerStyle(), 'text-base')}
+                >
                   Blog
                 </NavigationMenuLink>
               </Link>
@@ -119,7 +89,7 @@ export const Navbar = () => {
                 href={constants.github_repo}
                 target="_blank"
                 rel="noreferrer noopener"
-                className={navigationMenuTriggerStyle()}
+                className={cn(navigationMenuTriggerStyle(), 'text-base')}
               >
                 Contribute
               </NavigationMenuLink>
@@ -129,39 +99,36 @@ export const Navbar = () => {
                 href={constants.discord}
                 target="_blank"
                 rel="noreferrer noopener"
-                className={navigationMenuTriggerStyle()}
+                className={cn(navigationMenuTriggerStyle(), 'text-base')}
               >
                 Discord
               </NavigationMenuLink>
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
-        <div className="hidden items-center gap-4 md:flex">
+
+        <div className="hidden items-center gap-3 md:flex">
           <Button size="sm" asChild>
             <Link href="/sign-in">
-              Dashboard <ChevronRightIcon size={16} />
+              Get started <ChevronRightIcon size={18} />
             </Link>
           </Button>
         </div>
-        <div className="block md:hidden">
-          <button
-            type="button"
-            onClick={() => {
-              setMenuOpen((prev) => !prev);
-            }}
-          >
-            <MenuIcon size={24} />
-          </button>
-        </div>
+
+        <button
+          type="button"
+          className="block md:hidden"
+          onClick={() => {
+            setMenuOpen((prev) => !prev);
+          }}
+        >
+          <MenuIcon size={28} />
+        </button>
       </div>
-      <div
-        className={cn(
-          'block h-0 overflow-hidden md:hidden',
-          menuOpen && 'h-full pt-6',
-        )}
-      >
-        <div className="container">
-          <ul className="flex flex-col gap-3">
+
+      {menuOpen && (
+        <div className="block w-full bg-gray-100 p-4 md:hidden">
+          <ul className="flex flex-col gap-2">
             <li>
               <Link href="/early-access">Early access</Link>
             </li>
@@ -188,7 +155,7 @@ export const Navbar = () => {
             </li>
           </ul>
         </div>
-      </div>
+      )}
     </nav>
   );
 };
