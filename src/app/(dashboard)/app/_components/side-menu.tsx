@@ -5,6 +5,8 @@ import {
   HomeIcon,
   MessageSquareMore,
   PenLineIcon,
+  BookAIcon,
+  Calendar,
 } from 'lucide-react';
 import Image from 'next/image';
 import { ActiveButton } from './active-button';
@@ -30,6 +32,16 @@ const sideMenuStaticLinks = [
   {
     icon: <DiamondIcon size={iconSize} />,
     label: 'Flashcards',
+    href: '/app/flashcards',
+  },
+  {
+    icon: <BookAIcon size={iconSize} />,
+    label: 'Tasks',
+    href: '/app/tasks',
+  },
+  {
+    icon: <Calendar size={iconSize} />,
+    label: 'Calender',
     href: '/app/flashcards',
   },
 ];
