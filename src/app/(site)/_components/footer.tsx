@@ -50,12 +50,11 @@ export const Footer = () => {
       <div className="container flex flex-col justify-between md:flex-row">
         <div className="order-2 space-y-4 md:order-1">
           <Link href="/" className="flex items-center gap-3">
-            <Image src="/logo.svg" width={24} height={24} alt="Enoflow Logo" />
+            <Image src="/eno.svg" width={24} height={24} alt="Enoflow Logo" />
             <span>Enoflow</span>
           </Link>
           <p className="text-sm text-foreground-muted">
-            &copy; {new Date().getFullYear()} Enoflow RUN LTD. All Rights
-            Reserved.
+            &copy; {new Date().getFullYear()} Enoflow. All Rights Reserved.
           </p>
         </div>
         <div className="order-1 mb-10 grid grid-cols-3 gap-0 md:order-2 md:mb-0 md:gap-12">

@@ -1,20 +1,15 @@
 import { fileURLToPath } from 'node:url';
 
-import createJiti from 'jiti';
-import bundleAnalyzerPlugin from '@next/bundle-analyzer';
+import { createJiti } from 'jiti';
 
 const jiti = createJiti(fileURLToPath(import.meta.url));
 
-jiti('./src/env');
-
-const withBundleAnalyzer = bundleAnalyzerPlugin({
-  enabled: process.env['ANALYZE'] === 'true',
-});
+await jiti.import('./src/env');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  transpilePackages: ['next-mdx-remote'],
+  transpilePackages: ['next-mdx-remote', 'lucide-react'],
 
   // We run ESLint and TypeScript separately in the CI pipeline
   eslint: {
@@ -30,4 +25,4 @@ const nextConfig = {
   },
 };
 
-export default withBundleAnalyzer(nextConfig);
+export default nextConfig;
