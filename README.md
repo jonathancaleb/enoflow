@@ -16,11 +16,3 @@ The flashcards will be generated from the notes that you take, and you will be a
 
 - 📅 Calendar
 - 📝 Task management
-
-## Contributing
-
-If you would like to contribute to Enoflow, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) file to get started.
-
-## License
-
-Enoflow is open source and available under the [AGPL-3.0-or-later](./LICENSE) license.
