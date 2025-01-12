@@ -70,8 +70,8 @@ export default function Home() {
       <div className="mt-10 max-w-[60ch] rounded-lg border border-gray-300 bg-white p-6 text-center shadow-md">
         <h2 className="text-xl font-semibold">Hi, I&apos;m Caleb 👋</h2>
         <p className="mt-2 text-foreground-muted">
-          I&apos;m building this app as a way to improve my coding skills and
-          manage my day-to-day activities. The initial features will include
+          I&apos;m building this app as a way to improve my development skills
+          and manage my day-to-day tasks. The initial features will include
           integration with <strong>GitHub</strong> and{' '}
           <strong>Google Calendar</strong>. This project is under active
           development, and I&apos;m excited to bring more features to life!
