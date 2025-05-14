@@ -45,7 +45,7 @@ jobs:
         run: bun install
 
       - name: Run DB Migrations
-        run: bun db:migrate
+        run: DATABASE_URL=${{ secrets.DATABASE_URL }} bun db:migrate
 
       - name: Check Format
         run: bun format:check
@@ -55,6 +55,9 @@ jobs:
 
       - name: Typecheck
         run: bun typecheck
+
+      - name: Unit Tests
+        run: bun test
 
       - name: Build
         run: bun run build
